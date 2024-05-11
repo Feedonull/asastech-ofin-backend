@@ -19,8 +19,7 @@ public class ChatGPTServiceImpl {
         OkHttpClient client = new OkHttpClient();
 
         String prompt = sheetData;
-        //String apiKey = "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";
-        String apiKey = "sk-proj-MytffpQi7FGwcVKnKkRHT3BlbkFJ47wB7DLheCBNII7j896k";
+        String apiKey = "API KEY GOES HERE";
 
         HttpURLConnection con = (HttpURLConnection) new URL(API_URL).openConnection();
         con.setRequestMethod("POST");
