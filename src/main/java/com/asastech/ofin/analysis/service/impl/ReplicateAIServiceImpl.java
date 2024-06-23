@@ -18,7 +18,7 @@ import java.net.URL;
 public class ReplicateAIServiceImpl {
 
     private static final String REPLICATE_API_URL = "https://api.replicate.com/v1/models/meta/llama-2-70b-chat/predictions";
-    private String apiKey = "r8_Pm2JVh2R6jr66ZuL59C86dkUg8LEqXb0i8JRy";
+    private String apiKey = "";// API KEY
 
     public String doHorizontalAnalysis(String sheetData) throws Exception {
 
